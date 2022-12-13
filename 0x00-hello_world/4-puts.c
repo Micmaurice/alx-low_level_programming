@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main -using put for c programming
+ *main - using put for c programming
  *
- * return: 0
+ *Return: 0
  */
 
 int main(void)
