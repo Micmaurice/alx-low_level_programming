@@ -1,7 +1,7 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef MAIN_H
+#define MAIN_H
 
-int _putchar(char c);
+int _putchar(char);
 char *_strcat(char *dest, char *scr);
 char *_strncat(char *dest, char *scr, int n);
 char *_strncpy(char *dest, char *src, int n);
