@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - mix of lower and upper case in c
  * Return: 0
