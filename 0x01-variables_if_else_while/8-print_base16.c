@@ -15,6 +15,13 @@ int main(void)
 		putchar(num);
 		num++;
 	}
+	num = 97;
+
+	while (num <= 102)
+	{
+		putchar(num);
+		num++;
+	}
 	putchar('\n');
 	return (0);
 }
