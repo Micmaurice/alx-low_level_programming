@@ -3,7 +3,6 @@
 /**
  * main - prints out base ten numbers
  * @void: parameters for main
- * @num: digits
  * Return: 0 for success
  */
 
