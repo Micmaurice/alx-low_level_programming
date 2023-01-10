@@ -11,6 +11,7 @@
 int sqtRecursive(int start, int end, int m)
 {
 	long mid;
+
 	if (end >= start)
 
 	{

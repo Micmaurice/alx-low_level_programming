@@ -11,7 +11,7 @@ int sqtRecursive(int n, int m)
 	return (-1);
 	if (n * n == m)
 	return (n);
-	return (sqtRecursive(n - 1, m));	
+	return (sqtRecursive(n - 1, m));
 }
 	/**
 	 * is_prime_number - checks for prime number
