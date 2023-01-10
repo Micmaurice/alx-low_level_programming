@@ -4,35 +4,31 @@
  * _strstr - function
  * @haystack: parameter
  * @needle: parameter
- * Return: Pointer
+ *
+ * Return: pointer
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i = 0, j = 0;
-
-	for (; haystack[j];)
+	char *h = haystack;
+	char *n = needle;
+	while (*h)
 	{
-		for (; needle[j] && (haystack[i] == needle[0]);)
+		n = needle;
+		h = haystack;
+		while (*n)
 		{
-			if (haystack[i + j] == needle[j])
-		{
-			j++;
+			if (*h == *n)
+			{
+				n++;
+				h++;
+			}
+			else
+				break;
 		}
-		else
-		{
-			break;
-		}
-	}
-	if (needle[j])
-	{
-		i++;
-		j = 0;
-	}
-	else
-	{
-		return (haystack + i);
-	}
+		if (*n =='\0')
+				return(haystack);
+		haystack++;
 	}
 	return (0);
 }
