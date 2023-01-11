@@ -13,6 +13,20 @@ int sqtRecursive(int n, int m)
 	return (n);
 	return (sqtRecursive(n - 1, m));
 }
+
+	/**
+	 * _sqrt_recursion - finds square root
+	 * @n: integer
+	 * Return: square root of n or -1
+	 */
+
+int _sqrt_recursion(int n)
+{
+	if (n == 1)
+		return (1);
+	return (sqtRecursive(n / 2, n));
+}
+
 	/**
 	 * is_prime_number - checks for prime number
 	 * @n: integer
